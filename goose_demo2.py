@@ -19,7 +19,6 @@ raw_html = response.read()
 g = goose.Goose({'stopwords_class': StopWordsChinese})
 a = g.extract(raw_html=raw_html)
 print(a.infos)
-
 print a.title
 print("--"*20)
 print a.cleaned_text

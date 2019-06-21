@@ -10,14 +10,12 @@ import sys
 from goose import Goose
 from goose.text import StopWordsChinese
 # url = 'http://world.huanqiu.com/exclusive/2016-07/9209839.html'
-
 # url = 'http://world.huanqiu.com/exclusive/2016-07/9209839.html'
 
 url = "http://www.sohu.com/a/299667318_501931"
 
 g = Goose({'stopwords_class': StopWordsChinese})
 article = g.extract(url=url)
-# article.
 
 print article.links
 
