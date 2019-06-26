@@ -2,7 +2,7 @@
 
 ​	python2		Python-Goose
 
-​	python3		newspaper，readability，html2text（html转txt）
+​	python3		newspaper，readability，html2text（html转txt），boilerpipe
 
 #### 扩展包 Python-Goose 文章提取器
 
