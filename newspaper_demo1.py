@@ -9,7 +9,7 @@ import sys
 
 
 from newspaper import Article
-url = 'http://news.ifeng.com/a/20180504/58107235_0.shtml'
+url = 'https://www.toutiao.com/a6706641634643149323/'
 news = Article(url, language='zh')
 news.download()
 news.parse()

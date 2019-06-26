@@ -11,7 +11,7 @@ import re
 from readability.readability import Document
 
 
-url = "http://www.sohu.com/a/299667318_501931"
+url = "http://www.sohu.com/a/310119659_260031"
 # res = requests.get('http://finance.sina.com.cn/roll/2019-02-12/doc-ihrfqzka5034116.shtml')
 res = requests.get(url)
 
@@ -25,9 +25,11 @@ print(readable_title)
 readable_article = d.summary()
 # print(readable_article)
 
+print(d.get_clean_html())
+
 print("time: {}".format(time.time() - st))
 
-text_p = re.sub(r'</?div.*?>', '', readable_article)
-text_p = re.sub(r'((</p>)?<a href=.*?>|</a>(<p>)?)', '', text_p)
-text_p = re.sub(r'<select>.*?</select>', '', text_p)
-print(text_p)
+# text_p = re.sub(r'</?div.*?>', '', readable_article)
+# text_p = re.sub(r'((</p>)?<a href=.*?>|</a>(<p>)?)', '', text_p)
+# text_p = re.sub(r'<select>.*?</select>', '', text_p)
+# print(text_p)

@@ -12,6 +12,8 @@ from boilerpipe.extract import Extractor
 url = "http://www.sohu.com/a/299667318_501931"
 extractor = Extractor(extractor='ArticleExtractor', url=url)
 
+# extractor = Extractor(extractor='ArticleExtractor', html=html)
+
 # extractor = Extractor(url=url)
 
 extracted_text = extractor.getText()
