@@ -50,11 +50,9 @@ a.infos
 
 #### 总结
 
-​	newspaper 和 goose 对于提取都有一定的偏差， 可根据场景重写底层方法
+​	newspaper ，goose，  readability 对于提取都有一定的偏差， 可根据场景重写底层方法
 
 ​	都消耗大量cpu，
-
-​	目前较好的是 readability， 但是基于[BeautifulSoup](http://www.pythonclub.org/modules/beautifulsoup/start)  速度会稍微慢一些。
 
 #### 参考
 

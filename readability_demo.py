@@ -11,7 +11,7 @@ import re
 from readability.readability import Document
 
 
-url = "http://www.sohu.com/a/310119659_260031"
+url = "http://world.huanqiu.com/exclusive/2016-07/9209839.html"
 # res = requests.get('http://finance.sina.com.cn/roll/2019-02-12/doc-ihrfqzka5034116.shtml')
 res = requests.get(url)
 
