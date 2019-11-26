@@ -52,6 +52,9 @@ a.infos
 
 ​	只能解析出正文
 
+#### GeneralNewsExtractor
+    参考 https://github.com/Rockyzsu/CodePool/tree/master/GeneralNewsExtractor
+    
 #### 总结
 
 ​	newspaper ，goose，  readability 对于提取都有一定的偏差， 可根据场景重写底层方法
