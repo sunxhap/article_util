@@ -11,12 +11,16 @@ import re
 from readability.readability import Document
 
 
-url = "http://world.huanqiu.com/exclusive/2016-07/9209839.html"
-# res = requests.get('http://finance.sina.com.cn/roll/2019-02-12/doc-ihrfqzka5034116.shtml')
-res = requests.get(url)
+# url = "http://world.huanqiu.com/exclusive/2016-07/9209839.html"
+# # res = requests.get('http://finance.sina.com.cn/roll/2019-02-12/doc-ihrfqzka5034116.shtml')
+# res = requests.get(url)
+
+import codecs
+with codecs.open('test.html', 'r', encoding='utf-8') as f:
+    content = f.read()
 
 st = time.time()
-d = Document(res.content)
+d = Document(content)
 
 # 获取新闻标题
 readable_title = d.short_title()

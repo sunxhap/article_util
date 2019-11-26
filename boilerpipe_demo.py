@@ -9,10 +9,14 @@ import sys
 
 from boilerpipe.extract import Extractor
 
-url = "http://www.sohu.com/a/299667318_501931"
-extractor = Extractor(extractor='ArticleExtractor', url=url)
+# url = "http://www.sohu.com/a/299667318_501931"
+# extractor = Extractor(extractor='ArticleExtractor', url=url)
 
-# extractor = Extractor(extractor='ArticleExtractor', html=html)
+
+import codecs
+with codecs.open('test.html', 'r', encoding='utf-8') as f:
+    content = f.read()
+extractor = Extractor(extractor='ArticleSentencesExtractor', html=content)
 
 # extractor = Extractor(url=url)
 

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/article_util.iml" filepath="$PROJECT_DIR$/.idea/article_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../pro_qichacha/qichacha_spider_v2/spiderprocessor/.idea/spiderprocessor.iml" filepath="$PROJECT_DIR$/../../pro_qichacha/qichacha_spider_v2/spiderprocessor/.idea/spiderprocessor.iml" />
     </modules>
   </component>
 </project>

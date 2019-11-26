@@ -32,6 +32,10 @@ a.infos
 
 ​	安装    pip3 install --ignore-installed --upgrade newspaper3k 或 pip install newspaper3k
 
+#### 扩展包 goose
+   python2
+   参考  https://github.com/grangier/python-goose
+
 #### readability
 
 ​	安装 	pip install readability-lxml
@@ -44,7 +48,7 @@ a.infos
 
 #### boilerpipe
 
-​	参考 https://github.com/misja/python-boilerpipe
+​	使用参考 https://github.com/misja/python-boilerpipe
 
 ​	只能解析出正文
 
