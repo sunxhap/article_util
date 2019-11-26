@@ -51,9 +51,6 @@ a.infos
 ​	使用参考 https://github.com/misja/python-boilerpipe
 
 ​	只能解析出正文
-
-#### GeneralNewsExtractor
-    参考 https://github.com/Rockyzsu/CodePool/tree/master/GeneralNewsExtractor
     
 #### 总结
 
